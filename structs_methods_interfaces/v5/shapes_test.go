@@ -4,6 +4,10 @@ import (
 	"testing"
 )
 
+/*
+This is an interface
+If the object has a .Area() method, then this interface can be used with it
+*/
 type Shape interface {
 	Area() float64
 }
