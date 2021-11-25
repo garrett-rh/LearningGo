@@ -1,3 +1,3 @@
-module v1
+module structs_methods_interfaces
 
 go 1.17
