@@ -9,10 +9,6 @@ This is an interface
 If the object has a .Area() method, then this interface can be used with it
 */
 
-type Shape interface {
-	Area() float64
-}
-
 func TestPerimeter(t *testing.T) {
 	rectangle := Rectangle{10.0, 10.0}
 	got := Perimeter(rectangle)
